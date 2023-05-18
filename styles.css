@@ -1,0 +1,8 @@
+/* Reset */
+body{
+    padding: 0; /*Resetando configurações*/
+    margin: 0; /*Resetando configurações*/
+    color: #353839; /*Cor do Texto*/
+    text-transform: uppercase;
+    text-align: center;     /*Alinhamento*/
+}
