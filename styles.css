@@ -41,4 +41,9 @@ nav{
 
 nav a{
     margin: 0 30px;
+    text-decoration: none;
+    font-size: 21px;
+    font-weight: bolder;
+    color: black;
+    
 }
