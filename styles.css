@@ -1,4 +1,4 @@
-/* Reset */
+    /* Reset */
 body{
     padding: 0; /*Resetando configurações*/
     margin: 0; /*Resetando configurações*/
@@ -7,7 +7,7 @@ body{
     text-align: center;     /*Alinhamento*/
 }
 
-/*Container geral*/
+    /*Container geral*/
 .container{
     display: grid;
     height: 100vh;
@@ -22,7 +22,7 @@ body{
     gap: 0.6%;
 }
 
-/*Header*/
+    /*Header*/
 header{
     background: #a7ffeb;
     grid-area: header;
@@ -48,14 +48,14 @@ nav a{
 
 }
 
-/*Main*/
+    /*Main*/
 main{
     background: #84ffff;
     grid-area: main;
 
 }
 
-/*Sidebar*/
+    /*Sidebar*/
 #sidebar{
     background: #18ffff;
     grid-area: sidebar;
@@ -68,7 +68,7 @@ main{
     transform: scaleX(-1); /*Inverte a imagem*/
 }
 
-/*Divs (Cards)*/
+    /*Divs (Cards)*/
 #content1{
     background: #6fffd2;
     grid-area: content1;
@@ -106,7 +106,7 @@ main{
     margin: 0;
 }
 
-/* Footer*/
+    /* Footer*/
 footer{
     background: #1de9b6;
     grid-area: footer;
@@ -117,7 +117,7 @@ footer{
     align-items: center;
 }
 
-/*Responsividade*/
+    /*Responsividade*/
 @media only screen and (max-width: 768px){
     header{
         display: inline-block;
