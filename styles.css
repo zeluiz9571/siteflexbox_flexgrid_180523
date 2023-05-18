@@ -31,4 +31,14 @@ header{
     align-items: center;
 
 }
-header
+header img{
+    margin-left: 50px;
+}
+
+nav{
+    margin-right: 50px;
+}
+
+nav a{
+    margin: 0 30px;
+}
