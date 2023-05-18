@@ -11,7 +11,7 @@ body{
 .container{
     display: grid;
     height: 100vh;
-    overflow-y: hidden;
+    /*overflow-y: hidden;*/
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 0.3fr 1.5fr 1.5fr 0.7fr;
     grid-template-areas: 
@@ -83,7 +83,7 @@ main{
 }
 #content2 img{
     background: #64ffba;
-    grid-area: content1;
+    grid-area: content2;
 }
 #content2{
     width: 100%;
@@ -92,6 +92,10 @@ main{
 #content2 h2{
     height: 15%;
     margin: 0;
+}
+#content3{
+    background: #73ffba;
+    grid-area: content3;
 }
 #content3 img{
     width: 100%;
@@ -103,7 +107,7 @@ main{
 }
 
 /* Footer*/
-foooter{
+footer{
     background: #1de9b6;
     grid-area: footer;
     font-size: 16px;
@@ -112,6 +116,8 @@ foooter{
     justify-content: center;
     align-items: center;
 }
+
+/*Responsividade*/
 @media only screen and (max-width: 768px){
     header{
         display: inline-block;
@@ -127,7 +133,8 @@ foooter{
     nav a{
         margin: 15px;
         text-decoration: none;
-        font-size: bolder;
+        font-size: 20px;
+        font-weight: bolder;
         color: black;
     }
 }
@@ -142,16 +149,10 @@ foooter{
         "sidebar"
         "content1"
         "content2"
-        "content3";
+        "content3"
+        "footer"
+        ;
     }
-    #content1 img{
-        width: 100%;
-        height: 90%;
-    }
-    footer{
-        font-size: 16px;
-        text-transform: none;
-        height: 90px;
-    }
-    
+   
+
 }
