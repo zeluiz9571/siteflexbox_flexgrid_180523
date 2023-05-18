@@ -21,3 +21,13 @@ body{
     "footer footer footer footer";
     gap: 0.6%;
 }
+
+/*Header*/
+header{
+    background: #a7ffeb;
+    grid-area: header;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
